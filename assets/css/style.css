@@ -33,7 +33,8 @@ a {
 }
 
 img,
-picture {
+picture,
+svg {
   max-width: 100%;
   display: block;
 }
