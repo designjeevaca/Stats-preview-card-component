@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (min-width: 48rem) {
+  html {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(233deg, 47%, 7%);
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: underline;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.card {
+  max-width: 37.5rem;
+  background-color: hsl(244deg, 38%, 16%);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  text-align: center;
+}
+@media (min-width: 48rem) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    max-width: 90rem;
+  }
+}
+.card__hero {
+  background-color: hsl(277deg, 64%, 61%);
+  order: 1;
+}
+.card__img-mobile {
+  max-width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.card__img-desktop {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  mix-blend-mode: multiply;
+}
+.card__data {
+  padding: 2rem;
+  justify-content: space-around;
+}
+@media (min-width: 48rem) {
+  .card__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3rem;
+  }
+}
+.card__title {
+  font-family: "Inter", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  list-style: 1.2;
+}
+.card__title-accent {
+  color: hsl(277deg, 64%, 61%);
+}
+.card__description {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  margin-bottom: 2rem;
+}
+.card__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 48rem) {
+  .card__stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5rem;
+  }
+}
+.card__number {
+  color: hsl(0deg, 0%, 100%);
+}
+.card__heading {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  color: hsla(0deg, 0%, 100%, 0.6);
+  text-transform: uppercase;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}

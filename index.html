@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <!-- [CUSTOM STYLE] -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <main>
+    <article class="card">
+      <!-- [HERO] -->
+      <picture class="card__hero">
+        <source class="card__img-desktop" media="(min-width:48rem)" srcset="./assets/images/image-header-desktop.jpg">
+        <img class="card__img-mobile" src="./assets/images/image-header-mobile.jpg" alt="Three developers at work">
+      </picture>
+      <!-- [DATA] -->
+      <div class="card__data">
+        <!-- [DATA TOP] -->
+        <div>
+          <h1 class="card__title">Get<span class="card__title-accent"> insights </span>that help your business grow.
+          </h1>
+          <p class="card__description">Discover the benefits of data analytics and make better decisions regarding
+            revenue,
+            customer
+            experience, and overall efficiency.</p>
+        </div>
+        <!-- [DATA BOTTOM] -->
+        <div class="card__stats">
+          <div>
+            <h2 class="card__number">10k+</h2>
+            <p class="card__heading">Companies</p>
+          </div>
+          <div>
+            <h2 class="card__number">314</h2>
+            <p class="card__heading">Templates</p>
+          </div>
+          <div>
+            <h2 class="card__number">12M+</h2>
+            <p class="card__heading">Queries</p>
+          </div>
+        </div>
+
+      </div>
+    </article>
+  </main>
+
+
+  <footer>
+    <!-- [FRONTEND MENTOR ] -->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://digitallimat.com" target="_blank">Jeeva</a>.
+    </div>
+  </footer>
+
+  <!-- [CUSTOM SCRIPT] -->
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
