@@ -54,7 +54,7 @@ main {
   overflow: hidden;
   text-align: center;
 }
-@media (min-width: 48rem) {
+@media (min-width: 62rem) {
   .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -67,8 +67,8 @@ main {
   order: 1;
 }
 .card__img-mobile {
-  max-width: 100%;
-  height: 100%;
+  width: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   mix-blend-mode: multiply;
@@ -76,15 +76,15 @@ main {
 .card__img-desktop {
   -o-object-fit: cover;
      object-fit: cover;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   mix-blend-mode: multiply;
 }
 .card__data {
   padding: 2rem;
   justify-content: space-around;
 }
-@media (min-width: 48rem) {
+@media (min-width: 62rem) {
   .card__data {
     display: flex;
     flex-direction: column;
@@ -112,7 +112,7 @@ main {
   gap: 2rem;
   margin-bottom: 2rem;
 }
-@media (min-width: 48rem) {
+@media (min-width: 62rem) {
   .card__stats {
     display: flex;
     flex-direction: row;
