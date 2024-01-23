@@ -58,6 +58,6 @@ Users should be able to:
 
 ## Author
 
-- Digitaltamil.dev - [digitaltamildev](https://digitaltamil.dev)
-- Frontend Mentor - [@digitaltamildev](https://www.frontendmentor.io/profile/digitaltamildev)
-- Twitter - [@digitaltamildev](https://www.twitter.com/digitaltamildev)
+- jeevatek - [jeevatek](https://tek.jeeva.ca)
+- Frontend Mentor - [@jeevatek](https://www.frontendmentor.io/profile/jeevatek)
+- Twitter - [@jeevatek](https://www.twitter.com/jeevatek)
