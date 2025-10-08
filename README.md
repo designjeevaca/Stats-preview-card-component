@@ -58,6 +58,4 @@ Users should be able to:
 
 ## Author
 
-- jeevatek - [jeevatek](https://tek.jeeva.ca)
-- Frontend Mentor - [@jeevatek](https://www.frontendmentor.io/profile/jeevatek)
-- Twitter - [@jeevatek](https://www.twitter.com/jeevatek)
+- Frontend Mentor - [@designjeevaca](https://www.frontendmentor.io/profile/designjeevaca)
